@@ -1,9 +1,9 @@
-const app = {
-    data () {
-        return {
-            msg : "Hello Vue Js"
+    const app = {
+        data() {
+            return {
+                msg: 'Hello, Vue3'
+            }
         }
-    }
-}
 
-Vue.createApp(app).mount('#app')
+    }
+    Vue.createApp(app).mount('#app')
